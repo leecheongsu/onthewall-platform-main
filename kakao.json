@@ -1,0 +1,33 @@
+[
+  {
+    "avatar": null,
+    "countryCode": "82",
+    "createdAt": "2022-04-19T11:04:13+09:00",
+    "email": "vip2405@naver.com",
+    "phone": "01048432405",
+    "social": "kakao",
+    "status": "user",
+    "uid": "kakao2207488184",
+    "userName": "임영택"
+  },
+  {
+    "agreeEmail": false,
+    "agreeKakao": false,
+    "agreeMarketing": false
+  },
+  {
+    "isAlarmAllowed": true,
+    "isPaid": true,
+    "loginToken": null,
+    "orgName": "userName",
+    "projects": [],
+    "recentIp": null,
+    "terms": {
+      "termC_1": true,
+      "termC_2": true,
+      "termC_3": true
+    },
+    "status": "owner",
+    "updatedAt": "new Date()"
+  }
+]

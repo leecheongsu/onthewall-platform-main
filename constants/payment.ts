@@ -1,0 +1,135 @@
+import { PaymentPlans } from '@/type/Payment';
+
+const amountKor = 5000;
+// const amountKor = 5;
+
+export const PAYMENT: PaymentPlans = {
+  free: {
+    value: 'free',
+    label: 'Free',
+    hasGrade: false,
+    maxExhibition: 1,
+    amountPerMonth: 0,
+    annual: 0,
+    annualSale: 0,
+    features: ['하단 온더월 배너', '한달 기한제'],
+    targetCustomer: 'anyone',
+    desc: 'Try it out before making a payment 😄',
+    adminMaxCount: 0,
+  },
+  /* grade 는 최대 전시수 차이만 있음.
+    금액은 부가세 포함 금액. 연간 할인 금액은 20%
+  */
+  personal: {
+    value: 'personal',
+    label: 'Personal',
+    hasGrade: true,
+    grades: [
+      {
+        value: 'personal-1',
+        label: '개인-1',
+        maxExhibition: 2,
+        amountPerMonth: Math.round(amountKor * 2 * 0.89), // 8900,
+        annual: Math.round(amountKor * 2 * 0.89 * 12), // 106800,
+        annualSale: Math.round(amountKor * 2 * 0.89 * 12 * 0.8), // 85440,
+        adminMaxCount: 3,
+      },
+      {
+        value: 'personal-2',
+        label: '개인-2',
+        maxExhibition: 5,
+        amountPerMonth: Math.round(amountKor * 5 * 1.1), // 27500,
+        annual: Math.round(amountKor * 5 * 1.1 * 12), // 330000,
+        annualSale: Math.round(amountKor * 5 * 1.1 * 12 * 0.8), // 264000,
+        adminMaxCount: 6,
+      },
+      {
+        value: 'personal-3',
+        label: '개인-3',
+        maxExhibition: 10,
+        amountPerMonth: Math.round(amountKor * 10 * 1.1), // 55000,
+        annual: Math.round(amountKor * 10 * 1.1 * 12), // 660000,
+        annualSale: Math.round(amountKor * 10 * 1.1 * 12 * 0.8), // 528000,
+        adminMaxCount: 9,
+      },
+    ],
+    features: ['작품상세보기', '배경음악 변경', '방명록 및 좋아요', '뷰 카운트'],
+    targetCustomer: 'individual',
+    desc: 'This plan is sufficient for personal use 👍',
+  },
+  business: {
+    value: 'business',
+    label: 'Business',
+    hasGrade: true,
+    grades: [
+      {
+        value: 'business-1',
+        label: '비즈니스-1',
+        maxExhibition: 20,
+        amountPerMonth: Math.round(amountKor * 20 * 1.1), // 110000,
+        annual: Math.round(amountKor * 20 * 1.1 * 12), // 1320000,
+        annualSale: Math.round(amountKor * 20 * 1.1 * 12 * 0.8), // 1056000,
+        adminMaxCount: 12,
+      },
+      {
+        value: 'business-2',
+        label: '비즈니스-2',
+        maxExhibition: 30,
+        amountPerMonth: Math.round(amountKor * 30 * 1.1), // 165000,
+        annual: Math.round(amountKor * 30 * 1.1 * 12), // 1980000,
+        annualSale: Math.round(amountKor * 30 * 1.1 * 12 * 0.8), // 1584000,
+        adminMaxCount: 15,
+      },
+      {
+        value: 'business-3',
+        label: '비즈니스-3',
+        maxExhibition: 50,
+        amountPerMonth: Math.round(amountKor * 50 * 1.1), // 275000,
+        annual: Math.round(amountKor * 50 * 1.1 * 12), // 3300000,
+        annualSale: Math.round(amountKor * 50 * 1.1 * 12 * 0.8), // 2640000,
+        adminMaxCount: 18,
+      },
+      {
+        value: 'business-4',
+        label: '비즈니스-4',
+        maxExhibition: 100,
+        amountPerMonth: Math.round(amountKor * 100 * 0.88), // 440000,
+        annual: Math.round(amountKor * 100 * 0.88 * 12), // 5280000,
+        annualSale: Math.round(amountKor * 100 * 0.88 * 12 * 0.8), // 4224000,
+        adminMaxCount: 21,
+      },
+      {
+        value: 'business-5',
+        label: '비즈니스-5',
+        maxExhibition: 200,
+        amountPerMonth: Math.round(amountKor * 200 * 0.88), // 880000,
+        annual: Math.round(amountKor * 200 * 0.88 * 12), // 10560000,
+        annualSale: Math.round(amountKor * 200 * 0.88 * 12 * 0.8), // 8448000,
+        adminMaxCount: 24,
+      },
+    ],
+    features: [
+      '개인플랜의 모든 기능',
+      '작품별 링크 연결',
+      '프라이빗 갤러리 구축(구축비 별도)',
+      '메인 페이지 제공',
+      '커스텀 타이틀 사용',
+    ],
+    targetCustomer: 'enterprise',
+    desc: 'Create your own website 😆',
+  },
+  enterprise: {
+    value: 'enterprise',
+    label: 'Enterprise / Organization',
+    hasGrade: false,
+    maxExhibition: 350,
+    // !!!FIX 값 안떨어짐 추후 수정해야 함
+    amountPerMonth: Math.round(amountKor * 350 * 0.942857), // 1650000,
+    annual: Math.round((amountKor * 350 * 0.942857 * 12) / 1000) * 1000, // 19800000,
+    annualSale: Math.round((amountKor * 350 * 0.942857 * 12) / 1000) * 1000 * 0.8, // 15800000,
+    features: ['모든 기능'],
+    targetCustomer: 'enterprise',
+    desc: 'Build a platform for many users 😎',
+    adminMaxCount: 27,
+  },
+};

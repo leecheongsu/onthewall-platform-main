@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: var(--Neutral-60, #64748b);
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 1.75rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

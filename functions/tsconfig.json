@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "./lib",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2021",
+    "allowSyntheticDefaultImports": true, // 출력 디렉토리
+    "skipLibCheck": true
+    // 안쓰는 변수 있어도 되도록 설정
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*", "src/**/*.html", "src/template/*.html"]
+}

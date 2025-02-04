@@ -1,0 +1,12 @@
+{
+	"type": "service_account",
+	"project_id": "gd-virtual-staging",
+	"private_key_id": "6f4a9306293c03e5d6d8d49e581e7485b7b2f944",
+	"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZWCKWH1QaDw+g\nLOaYB24owXzhtmKc/ef5tXaQIBi7d1aCWojzdJ0Qvj7VOs4OTKXtU3iYaPsQMQd8\nWqGvQLGaNdZRLLTY1WyS01RUTsIIUzhrN13M0pG/4yWTCHrME7oFUi/hUL8GIJtE\nNzdyE0NYMJAf2PhGhoKevkDSs5Q3XrAVR+5tYIarqusFOq9Up3op9QYzRCDhW5q/\nF3b4tPPX7NezLzhQ6PtLhKPzzbf9EC/i7KEblrQxM45esGuzK+rgOhy2jPDoco4v\nT4obuf5VlR9X4yTaCsG5STH0lfnCRLYuMyRKzIEGbbwmOIK+Qh5WFy53lUGcllR7\ni2nnqmzpAgMBAAECggEAASJvrBJqhABXRmE6qgaJDDxlPQLFT0HKJvTungGcyTtI\nbLG4iGuVE2gC7T8wgdbTlfJLhr4lGGEye9ssTdCB1+Ec1zAoXN/UXDA71B1ajmb2\nOIXZ9+9ZZHTs5N330Z12P36Ui9tV9HjGiU5KxtlpYsRGNrQbXyM04XGJJ33sY235\nGJ02qhpmABkNg9faM/EsRFzxkmICqPd9OuJ3EXdHr3Jvza7M5130K6UmC7gQ4DSp\nOiP92JiHYVOI+rvvA7FkLITZ7OpJCg4MSmkOhPNx+fJx56WPcK5+wdRGpkkeAUyO\nZWSS/UAKpGsOEK+XCdltISnYM61aaf+kyBKSqeT4sQKBgQDXb1rG5QQB2we8VjYp\nvZrAAwCphRwkjfpXxBhxgi+MXfTNiuh8J4RX+XSCS358w/agRiogS53nmQp9rQsP\nwL2qvrsPFaCqfTLk01F2zxCO/bA4aJ7Ud0p9rJLNEe/SlmoGI1r0iHyAVOPpMC1x\n5fUmyEX4XJ8DmyWV5pqCvGlruQKBgQC2N9AZ1hJqjOWlqgGHFaFfY1yrtB5T2Vb+\nivaZQ+p/LmeSxdIjwO4Wsi7qwJpqy4bBJfuY2tx/2d8erM7fJaCtEoB38KrUqNfd\nYu/KkUA1hXkkZRa7Cki2crm0gq5yc49ZSLLlE+8LeOAXEv/tCnn82jBRN+e9p6ej\nNgyQEiuCsQKBgHyl+lEAKwxjzZsECryl7sbQNe7fjIP9/e4QENCEMby2lDDlAVTs\njF9WfznwMlRAEg9z6WXcOpXI78/9clv/+f2z84lryxU58VuChS0H653AXNiWd+eY\nyenjEuFCUo925gt9I2A/JEIgW+oNLQ4srmZtFEb6WCr+9oU/8wBXwWtJAoGAel7J\nFlC5VW0B3FtrYziXguPLnFP9+fl/frn8GbmOhZK4Y80N7ozmV7+Z2nU2PnooKRZE\n/MYeRo4eVQ9gbmNqoFBIjkPFtcMeFMMYnkUlhcv5KwPoW/vwEPbC2ALa/Gm23xL/\ncPAOHPo0I8rSrHHYsoIk6KZOrwMkhWsKzMYnCkECgYEAswBAGl0VkYCFc39y45d2\nJcs2t0lncTDFeSppbwu4grM4T8x2cAcdEI+ZsG93YXiqqe6qtSsiRRDfIIUhB2LY\n2WPEU1uKqZqivMGg+jPQnLw7vIzX7CpYJPbCht75s/5XuY0/G+qrGLLQLeq6Nb6Z\nqMm9k3yY5n4R7dnrg4w1PhY=\n-----END PRIVATE KEY-----\n",
+	"client_email": "onthewall@gd-virtual-staging.iam.gserviceaccount.com",
+	"client_id": "112794131850241969312",
+	"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	"token_uri": "https://oauth2.googleapis.com/token",
+	"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/onthewall%40gd-virtual-staging.iam.gserviceaccount.com"
+}

@@ -1,0 +1,10 @@
+@import "button.css";
+@import "layout.css";
+@import "modal.css";
+@import "form.css";
+@import "navbar.css";
+@import "section.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

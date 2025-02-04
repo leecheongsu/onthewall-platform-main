@@ -1,0 +1,96 @@
+.modal_container {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.modal_container.md {
+    width: 400px;
+}
+
+.modal_container.lg {
+    width: 560px;
+}
+
+
+.blind_filter {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.modal_content_box {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.btn_close {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1001;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal_title {
+    color: var(--Neutral-90, #1E2A3B);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.modal_child {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal_btn_box {
+    display: flex;
+    width: 100%;
+}
+
+.modal_btn_box.single {
+    justify-content: center;
+    max-width: 350px;
+}
+
+.modal_btn_box.multi {
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.modal_btn_box button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

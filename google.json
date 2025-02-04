@@ -1,0 +1,31 @@
+[
+  {
+    "agreeEmail": false,
+    "agreeKakao": false,
+    "agreeMarketing": true,
+    "avatar": null,
+    "countryCode": "82",
+    "createdAt": "2024-07-09T16:44:26+09:00",
+    "email": "gochang.s240109@ggm.goe.go.kr",
+    "phone": null,
+    "social": "google",
+    "status": "user",
+    "uid": "0A2nNpl0n3XVYLzI9f0URRzw4001"
+  },
+  {
+    "userName": "",
+    "isAlarmAllowed": true,
+    "isPaid": true,
+    "loginToken": null,
+    "orgName": "userName",
+    "projects": [],
+    "recentIp": null,
+    "terms": {
+      "termC_1": true,
+      "termC_2": true,
+      "termC_3": true
+    },
+    "status": "owner",
+    "updatedAt": "new Date()"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "onthewall-cloud",
+    "otwc": "gd-virtual-staging"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
